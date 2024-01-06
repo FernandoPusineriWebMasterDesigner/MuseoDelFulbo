@@ -959,6 +959,43 @@ div.pie {
 
 /*los-mejores-goles*/
 
+.global {
+
+  background-image: url(../imagenes/fondoblanco.jpg);
+  
+}
+
+.tituloini{
+
+  margin-bottom: 1%;
+  }
+
+.contenido-videos {
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  margin: 0 5%;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(197, 191, 197);
+  padding: 10px;
+  margin-bottom: 0,5%;
+  background-color: #6b626241;
+  
+  
+  
+}
+
+.videos a{
+
+  text-decoration: none;
+  color: #d9d9e4;
+
+}
+
 /*que-mirá-bobo*/
 
 div.titulo-quemirabobo h1 {
