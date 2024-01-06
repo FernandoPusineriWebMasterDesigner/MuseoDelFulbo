@@ -335,6 +335,17 @@ footer {
   text-align: center;
 }
 
+.contenido-mundiales {
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+margin: 0 10%;
+
+}
+
 .Indice h2 {
   font-size: 56px;
 }
@@ -787,6 +798,7 @@ footer {
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 5%;
   
 }
 
