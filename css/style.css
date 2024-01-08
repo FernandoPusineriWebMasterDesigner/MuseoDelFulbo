@@ -41,13 +41,13 @@ body {
       hwb(192 80% 22% / 0.589),
       hsl(240, 80%, 14%)
     ),
-    url(../imagenes/messiiicopadelmundo.jpg);
+    url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/19/16714678174157.jpg);
   background: linear-gradient(
       to right,
       hwb(0 78% 22% / 0.589),
       hsl(240, 80%, 14%)
     ),
-    url(../imagenes/messiiicopadelmundo.jpg);
+    url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/19/16714678174157.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
