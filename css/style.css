@@ -209,9 +209,7 @@ header {
 }
 
 .texto-media {
-
   visibility: hidden;
-
 }
 
 /* GALERIA */
@@ -912,37 +910,43 @@ div.paragraph-messi p {
 
   .foto-campeones {
     display: none !important;
-
-
   }
 
-  .texto-media  {
-  
-  visibility: visible;
-  justify-content: center;
-  text-align: center;
-
+  .texto-media {
+    visibility: visible;
+    justify-content: center;
+    text-align: center;
   }
-
-
 }
 
 @media (width<=500px) {
+  .galeria-organismos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.galeria-organismos {
+  .imagen-organismos {
+    width: 50%;
+    height: 230px;
+  }
 
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+
+  .textos-header h1 {
+
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 55px;
 
+     
+  }
 }
-
-.imagen-organismos {
-
-  width: 50%;
-  height: 230px;
-
-}
-
-}
-
