@@ -146,7 +146,6 @@ header {
   background-color: rgb(255, 243, 174);
   background-size: cover;
   margin-bottom: 0.5px;
-  
 }
 
 .contenedor-sobre-mundiales {
@@ -170,7 +169,8 @@ header {
 .contenido-textos h3 {
   margin-bottom: 5px;
   color: #201f1f;
-  text-shadow: 1px 2px 2px rgb(15, 14, 14), 0 0 25px rgb(54, 54, 128), 0 0 5px rgb(18, 18, 209);
+  text-shadow: 1px 2px 2px rgb(15, 14, 14), 0 0 25px rgb(54, 54, 128),
+    0 0 5px rgb(18, 18, 209);
 }
 
 .contenido-textos h3 span {
@@ -195,16 +195,23 @@ header {
   font-size: 20px;
   font-weight: 1900;
   color: hsla(0, 0%, 0%, 0.788);
-  text-shadow: 1px 2px 2px rgb(235, 230, 230), 0 0 25px rgb(193, 193, 196), 0 0 5px rgb(230, 230, 243);
+  text-shadow: 1px 2px 2px rgb(235, 230, 230), 0 0 25px rgb(193, 193, 196),
+    0 0 5px rgb(230, 230, 243);
   margin-top: 25px;
 }
 
 .foto-campeones {
-
   justify-content: center;
   align-items: center;
   display: inline-block;
   margin-bottom: 35px;
+  width: 100px;
+}
+
+.texto-media {
+
+  visibility: hidden;
+
 }
 
 /* GALERIA */
@@ -274,17 +281,13 @@ header {
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 30px;
-  
 }
 
 .about-us .nosotros-ind p {
-
   color: #fff;
-  text-shadow: 1px 2px 2px rgb(206, 202, 202), 0 0 25px rgb(193, 193, 196), 0 0 5px rgb(230, 230, 243);
+  text-shadow: 1px 2px 2px rgb(206, 202, 202), 0 0 25px rgb(193, 193, 196),
+    0 0 5px rgb(230, 230, 243);
   font-size: 25px;
-  
-  
-
 }
 
 .nosotros-cont {
@@ -361,7 +364,6 @@ footer {
 /*MUNDIALES*/
 
 .Indice {
-  
   background-image: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-attachment: fixed;
@@ -502,7 +504,6 @@ footer {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 65px;
   margin-bottom: 5%;
-  
 }
 
 .accordion-1982 button {
@@ -550,7 +551,6 @@ footer {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 65px;
   margin-bottom: 5%;
-  
 }
 
 .accordion-1998 button {
@@ -613,7 +613,7 @@ footer {
 .accordion-2018 button {
   width: 100%;
   background-image: url(https://media.istockphoto.com/id/1298626865/es/v%C3%ADdeo/bandera-de-sat%C3%A9n-de-rusia-ondeando-la-textura-de-la-tela-real-de-la-bandera-de-rusia.jpg?s=640x640&k=20&c=Z1WXAAWnHy_onhDemLRMnEZlr5YV1XFLKEi3dEqzd74=);
-  background-size: contain ;
+  background-size: contain;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -631,13 +631,11 @@ footer {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 65px;
   margin-bottom: 5%;
-  
 }
 
 /*JUGADORES DESTACADOS*/
 
 .jugadores-destacados {
-  
   background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/06/gradient-1761190_1280.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -823,13 +821,10 @@ div.pie {
 /*que-mirá-bobo*/
 
 .contenedor-quemirabobo {
-
-background-image: url(https://p4.wallpaperbetter.com/wallpaper/139/266/574/argentina-barcelona-lionel-messi-wallpaper-preview.jpg);
-background-size: cover;
-background-attachment: fixed;
-opacity: 0.7;
-
-
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/139/266/574/argentina-barcelona-lionel-messi-wallpaper-preview.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
 }
 
 div.titulo-quemirabobo h1 {
@@ -838,7 +833,6 @@ div.titulo-quemirabobo h1 {
   font-weight: 950;
   color: hsla(0, 0%, 0%, 0.979);
   text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
-  
 }
 
 div.videos-messi .video2 {
@@ -849,7 +843,6 @@ div.videos-messi .video2 {
   justify-content: center;
   align-content: center;
   padding: 0 32% 0 32%;
-  
 }
 
 div.videos-messi .video2 p {
@@ -868,7 +861,6 @@ div.videos-messi .video3 {
   justify-content: center;
   align-content: center;
   padding: 0 32% 0 32%;
-  
 }
 
 div.videos-messi .video3 p {
@@ -880,7 +872,6 @@ div.videos-messi .video3 p {
 }
 
 div.paragraph-messi {
-  
   text-align: center;
   text-shadow: 2px 2px 5px rgb(197, 191, 197);
   padding: 10px;
@@ -894,70 +885,64 @@ div.paragraph-messi h3 {
 }
 
 div.paragraph-messi p {
-
   font-size: 25px;
   font-weight: 1900;
-  text-shadow: 1px 2px 2px rgb(231, 228, 228), 0 0 25px rgb(145, 141, 141), 0 0 5px rgb(183, 183, 185);
+  text-shadow: 1px 2px 2px rgb(231, 228, 228), 0 0 25px rgb(145, 141, 141),
+    0 0 5px rgb(183, 183, 185);
   color: hsla(0, 0%, 0%, 0.979);
-  margin-top: 25px; 
+  margin-top: 25px;
   justify-content: center;
   text-align: center;
   text-rendering: optimizeLegibility;
-  
 }
-
 
 /*Celulares*/
 
-@media screen and (max-width: 500px) {
-  header {
-    background-position: center;
+@media (width<=1400px) {
+  .logo-pagina {
+    display: none !important;
   }
 
   .contenedor-sobre-mundiales {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .sobre-mundiales .contenido-textos {
-    width: 90%;
+  .foto-campeones {
+    display: none !important;
+
+
   }
 
-  .video-sobremundiales {
-    width: 90%;
+  .texto-media  {
+  
+  visibility: visible;
+  justify-content: center;
+  text-align: center;
+
   }
 
-  .imagen-organismos {
-    width: 44%;
-  }
 
-  .nosotros-cont {
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .content-foo {
-    width: 100%;
-    text-align: center;
-  }
 }
 
-@media screen and (max-width: 500px) {
-  nav {
-    text-align: center;
-    padding: 30px 0 0 0;
-  }
+@media (width<=500px) {
 
-  nav > a {
-    margin-right: 5px;
-  }
+.galeria-organismos {
 
-  .textos-header h1 {
-    font-size: 35px;
-  }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .textos-header h2 {
-    font-size: 20px;
-  }
 }
+
+.imagen-organismos {
+
+  width: 50%;
+  height: 230px;
+
+}
+
+}
+
