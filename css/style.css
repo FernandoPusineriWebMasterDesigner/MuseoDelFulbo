@@ -361,8 +361,8 @@ footer {
 /*MUNDIALES*/
 
 .Indice {
-  /* background-image: url(../imagenes/fondoblanco.jpg); */
-  background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/06/gradient-1761190_1280.jpg);
+  
+  background-image: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-attachment: fixed;
   justify-content: center;
@@ -383,380 +383,207 @@ footer {
 
 .accordion-1930 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://img.freepik.com/foto-gratis/bandera-uruguay_1401-254.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1704412800&semt=ais);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://img.freepik.com/foto-gratis/bandera-uruguay_1401-254.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1704412800&semt=ais);
+  background-image: url(https://img.freepik.com/foto-gratis/bandera-uruguay_1401-254.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1704672000&semt=ais);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 5%;
 }
 
 .accordion-1934 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://www.cofiba.es/static/media/var/www/cobi/w_dcofiba/cobi/custom/dcofiba/media/images/productimage-picture-bandera-italia-155-x-100-14878.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://www.cofiba.es/static/media/var/www/cobi/w_dcofiba/cobi/custom/dcofiba/media/images/productimage-picture-bandera-italia-155-x-100-14878.jpg);
+  background-image: url(https://img.freepik.com/vector-premium/bandera-italia-efecto-ondulado-proporcion-oficial_292608-2021.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 5%;
 }
 
 .accordion-1938 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://i.pinimg.com/736x/ea/fe/d1/eafed17dae066c35f1483d8f531e081a.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://i.pinimg.com/736x/ea/fe/d1/eafed17dae066c35f1483d8f531e081a.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/176/893/non_2x/flag-of-france-background-vector.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-1950 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://t2.uc.ltmcdn.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://t2.uc.ltmcdn.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg);
+  background-image: url(https://t2.uc.ltmcdn.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  color: rgb(255, 254, 249);
+  margin-bottom: 5%;
 }
 
 .accordion-1954 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://media.istockphoto.com/id/1409845543/es/vector/dise%C3%B1o-de-la-bandera-de-suiza-ondeando-bandera-suiza-hecha-de-tela-de-sat%C3%A9n-o-seda.jpg?s=612x612&w=0&k=20&c=t53i_wvzsrtp9hZEy0rXGRnjZAP6_Kftzn0kg5G_jAM=);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://media.istockphoto.com/id/1409845543/es/vector/dise%C3%B1o-de-la-bandera-de-suiza-ondeando-bandera-suiza-hecha-de-tela-de-sat%C3%A9n-o-seda.jpg?s=612x612&w=0&k=20&c=t53i_wvzsrtp9hZEy0rXGRnjZAP6_Kftzn0kg5G_jAM=);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bandera_de_Suiza.png/640px-Bandera_de_Suiza.png);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-1958 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://img.freepik.com/vector-premium/bandera-suecia-ondeando-colorida-bandera-suecia-bandera-3d-suecia-fondo-sueco_650465-315.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://img.freepik.com/vector-premium/bandera-suecia-ondeando-colorida-bandera-suecia-bandera-3d-suecia-fondo-sueco_650465-315.jpg);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/2560px-Flag_of_Sweden.svg.png);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  color: rgb(255, 254, 249);
+  margin-bottom: 5%;
 }
 
 .accordion-1962 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://img.freepik.com/fotos-premium/bandera-chile-fondo-primer-plano-seda_406939-129.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://img.freepik.com/fotos-premium/bandera-chile-fondo-primer-plano-seda_406939-129.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/431/835/original/illustration-of-the-chile-flag-free-vector.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-1966 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://banderas.top/wp-content/uploads/2020/06/Bandera-de-Inglaterra-1024x512.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://banderas.top/wp-content/uploads/2020/06/Bandera-de-Inglaterra-1024x512.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/009/287/763/non_2x/england-national-flag-waving-realistic-illustration-vector.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 5%;
 }
 
 .accordion-1970 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://conecta.tec.mx/sites/default/files/styles/header_full/public/2022-02/historia-y-curiosidades-de-la-bandera-de-mexico.jpg?h=920929c4&itok=WrnA2D_j);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://conecta.tec.mx/sites/default/files/styles/header_full/public/2022-02/historia-y-curiosidades-de-la-bandera-de-mexico.jpg?h=920929c4&itok=WrnA2D_j);
+  background-image: url(https://www.despensamexicana.es/large/Banderas-Mexicanas-i7.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
+  color: rgb(8, 8, 8);
+  opacity: 0.9;
 }
 
 .accordion-1974 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://static.vecteezy.com/system/resources/thumbnails/015/451/710/small/waving-flag-of-germany-3d-banner-vector.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://static.vecteezy.com/system/resources/thumbnails/015/451/710/small/waving-flag-of-germany-3d-banner-vector.jpg);
+  background-image: url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
+  color: rgb(255, 254, 249);
 }
 
 .accordion-1978 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://i.pinimg.com/originals/a5/37/05/a53705b9a77b24e5b04b99e06b737a60.png);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://i.pinimg.com/originals/a5/37/05/a53705b9a77b24e5b04b99e06b737a60.png);
+  background-image: url(https://img.freepik.com/vector-gratis/ilustracion-bandera-argentina_53876-27120.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
+  
 }
 
 .accordion-1982 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://i.ebayimg.com/images/g/mwoAAOxySOlR8TaW/s-l1200.webp);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://i.ebayimg.com/images/g/mwoAAOxySOlR8TaW/s-l1200.webp);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/008/070/285/non_2x/spain-flag-icon-in-official-color-and-proportion-correctly-free-vector.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-1986 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://conecta.tec.mx/sites/default/files/styles/header_full/public/2022-02/historia-y-curiosidades-de-la-bandera-de-mexico.jpg?h=920929c4&itok=WrnA2D_j);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://conecta.tec.mx/sites/default/files/styles/header_full/public/2022-02/historia-y-curiosidades-de-la-bandera-de-mexico.jpg?h=920929c4&itok=WrnA2D_j);
+  background-image: url(https://www.despensamexicana.es/large/Banderas-Mexicanas-i7.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
+  margin-bottom: 5%;
+  color: rgb(8, 8, 8);
+  opacity: 0.9;
 }
 
 .accordion-1990 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://www.cofiba.es/static/media/var/www/cobi/w_dcofiba/cobi/custom/dcofiba/media/images/productimage-picture-bandera-italia-155-x-100-14878.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://www.cofiba.es/static/media/var/www/cobi/w_dcofiba/cobi/custom/dcofiba/media/images/productimage-picture-bandera-italia-155-x-100-14878.jpg);
+  background-image: url(https://img.freepik.com/vector-premium/bandera-italia-efecto-ondulado-proporcion-oficial_292608-2021.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-1994 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://ak.picdn.net/shutterstock/videos/1102628023/thumb/1.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://ak.picdn.net/shutterstock/videos/1102628023/thumb/1.jpg);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
+  
 }
 
 .accordion-1998 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://i.pinimg.com/736x/ea/fe/d1/eafed17dae066c35f1483d8f531e081a.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://i.pinimg.com/736x/ea/fe/d1/eafed17dae066c35f1483d8f531e081a.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/176/893/non_2x/flag-of-france-background-vector.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-2002 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://internationalpress.jp/wp-content/uploads/2023/03/Banderas-Japon-Corea-del-Sur-678x381.jpg);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://internationalpress.jp/wp-content/uploads/2023/03/Banderas-Japon-Corea-del-Sur-678x381.jpg);
+  background-image: url(https://img.freepik.com/fotos-premium/banderas-corea-sur-japon-primer-plano-bandera-lino-bandera-hecha-lienzo-simbolos-nacionales-estado-japones-seul-coreano-ilustracion-3d_630687-2313.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-2006 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 2%, 8%)
-    ),
-    url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
+  background-image: url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  margin-bottom: 5%;
 }
 
 .accordion-2010 button {
@@ -766,7 +593,9 @@ footer {
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
   color: rgb(143, 141, 141);
+  margin-bottom: 5%;
 }
 
 .accordion-2014 button {
@@ -776,28 +605,21 @@ footer {
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
   color: rgb(255, 254, 249);
+  margin-bottom: 5%;
 }
 
 .accordion-2018 button {
   width: 100%;
-  background: #000046;
-  background: -webkit-linear-gradient(
-      to right,
-      hwb(192 80% 22% / 0.589),
-      hsl(240, 2%, 78%)
-    ),
-    url(https://media.istockphoto.com/id/850307746/es/foto/bandera-rusa-bandera-de-rusia-bandera-de-rusia-ilustraci%C3%B3n-de-la-bandera-de-rusia-oficial-de.jpg?s=612x612&w=0&k=20&c=Ikn5qMOLbfpMa8XyuiCT4CCC-QqXPNNoBPbjWZ5XJGU=);
-  background: linear-gradient(
-      to right,
-      hwb(0 78% 22% / 0.589),
-      hsl(240, 3%, 81%)
-    ),
-    url(https://media.istockphoto.com/id/850307746/es/foto/bandera-rusa-bandera-de-rusia-bandera-de-rusia-ilustraci%C3%B3n-de-la-bandera-de-rusia-oficial-de.jpg?s=612x612&w=0&k=20&c=Ikn5qMOLbfpMa8XyuiCT4CCC-QqXPNNoBPbjWZ5XJGU=);
-  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/1298626865/es/v%C3%ADdeo/bandera-de-sat%C3%A9n-de-rusia-ondeando-la-textura-de-la-tela-real-de-la-bandera-de-rusia.jpg?s=640x640&k=20&c=Z1WXAAWnHy_onhDemLRMnEZlr5YV1XFLKEi3dEqzd74=);
+  background-size: contain ;
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  color: rgb(255, 254, 249);
+  margin-bottom: 5%;
 }
 
 .accordion-2022 button {
@@ -807,13 +629,16 @@ footer {
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
   margin-bottom: 5%;
+  
 }
 
 /*JUGADORES DESTACADOS*/
 
 .jugadores-destacados {
-  background-image: url(../imagenes/ipsos-global-advisor-fifa-world-cup-2022.jpg);
+  
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/06/gradient-1761190_1280.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -868,8 +693,7 @@ footer {
 /*DT DESTACADOS*/
 
 .DT-destacados {
-  /* background-color: #030303; */
-  background-image: url(../imagenes/ipsos-global-advisor-fifa-world-cup-2022.jpg);
+  background-image: url(https://images.unsplash.com/photo-1517747614396-d21a78b850e8?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -929,12 +753,14 @@ div.imagenesmundiales h1 {
   margin: 45px;
   font-size: 90px;
   font-weight: 900;
-  color: hsla(192, 85%, 51%, 0.788);
+  color: hsla(192, 4%, 72%, 0.788);
   text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
 }
 
 div.imagenesmundiales {
-  background-color: gray;
+  background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -968,7 +794,7 @@ div.pie {
 /*los-mejores-goles*/
 
 .global {
-  background-image: url(../imagenes/fondoblanco.jpg);
+  background-image: url(https://images.unsplash.com/photo-1520698857293-5d763dde010f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
 .tituloini {
@@ -996,15 +822,23 @@ div.pie {
 
 /*que-mirá-bobo*/
 
+.contenedor-quemirabobo {
+
+background-image: url(https://p4.wallpaperbetter.com/wallpaper/139/266/574/argentina-barcelona-lionel-messi-wallpaper-preview.jpg);
+background-size: cover;
+background-attachment: fixed;
+opacity: 0.7;
+
+
+}
+
 div.titulo-quemirabobo h1 {
   height: 90px;
   font-size: 90px;
   font-weight: 950;
-  color: hsla(192, 85%, 51%, 0.788);
+  color: hsla(0, 0%, 0%, 0.979);
   text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
-  background-image: url(../imagenes/fondoblanco.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  
 }
 
 div.videos-messi .video2 {
@@ -1015,16 +849,15 @@ div.videos-messi .video2 {
   justify-content: center;
   align-content: center;
   padding: 0 32% 0 32%;
-  background-image: url(../imagenes/fondoblanco.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  
 }
 
 div.videos-messi .video2 p {
   text-align: center;
-  text-shadow: 2px 2px 5px rgb(197, 191, 197);
+  text-shadow: 2px 2px 5px rgb(10, 10, 10);
   padding: 10px;
   font-size: 40px;
+  color: hsla(0, 0%, 0%, 0.979);
 }
 
 div.videos-messi .video3 {
@@ -1035,22 +868,19 @@ div.videos-messi .video3 {
   justify-content: center;
   align-content: center;
   padding: 0 32% 0 32%;
-  background-image: url(../imagenes/fondoblanco.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  
 }
 
 div.videos-messi .video3 p {
   text-align: center;
-  text-shadow: 2px 2px 5px rgb(197, 191, 197);
+  text-shadow: 2px 2px 5px rgb(12, 12, 12);
   padding: 10px;
   font-size: 40px;
+  color: hsla(0, 0%, 0%, 0.979);
 }
 
 div.paragraph-messi {
-  background-image: url(../imagenes/fondoblanco.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  
   text-align: center;
   text-shadow: 2px 2px 5px rgb(197, 191, 197);
   padding: 10px;
@@ -1059,8 +889,23 @@ div.paragraph-messi {
 div.paragraph-messi h3 {
   text-align: center;
   font-size: 50px;
-  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  text-shadow: 1px 2px 2px rgb(17, 17, 17), 0 0 25px blue, 0 0 5px blue;
+  color: hsla(0, 0%, 0%, 0.979);
 }
+
+div.paragraph-messi p {
+
+  font-size: 25px;
+  font-weight: 1900;
+  text-shadow: 1px 2px 2px rgb(231, 228, 228), 0 0 25px rgb(145, 141, 141), 0 0 5px rgb(183, 183, 185);
+  color: hsla(0, 0%, 0%, 0.979);
+  margin-top: 25px; 
+  justify-content: center;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  
+}
+
 
 /*Celulares*/
 
