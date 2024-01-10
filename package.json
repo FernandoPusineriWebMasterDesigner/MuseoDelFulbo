@@ -1,0 +1,11 @@
+{
+  "name": "museodelfulbo",
+  "version": "1.0.0",
+  "description": "Este es mi proyecto Coder House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Pusineri",
+  "license": "ISC"
+}

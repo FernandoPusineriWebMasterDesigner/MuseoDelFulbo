@@ -1,0 +1,984 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap");
+
+* {
+    /* margen */
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: 800;
+}
+
+.container {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #030303;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background-color: rgb(255, 243, 174);
+    background-size: cover;
+}
+
+/* Header */
+
+.intro {
+    width: 100%;
+    background: #000046;
+    background: -webkit-linear-gradient(to right,
+            hwb(192 80% 22% / 0.589),
+            hsl(240, 80%, 14%)),
+        url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/19/16714678174157.jpg);
+    background: linear-gradient(to right,
+            hwb(0 78% 22% / 0.589),
+            hsl(240, 80%, 14%)),
+        url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/19/16714678174157.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: center;
+    padding: 30px 50px 0 0;
+    flex: 1;
+}
+
+nav>a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    color: rgb(245, 228, 135);
+}
+
+.textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    height: 90px;
+    margin: 0px;
+    font-size: 90px;
+    font-weight: 900;
+    color: hsla(192, 85%, 51%, 0.788);
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.textos-header h1 {
+    font-size: 80px;
+    color: hsla(192, 85%, 51%, 0.788);
+    margin: 25px;
+}
+
+.textos-header h2 {
+    font-size: 40px;
+    color: hsla(0, 0%, 3%, 0.788);
+}
+
+.textos-header h3 {
+    font-size: 30px;
+    color: rgb(157, 197, 238);
+    margin-top: 42px;
+}
+
+.textos-header h4 {
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    margin-top: 42px;
+}
+
+.wave {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-pagina {
+    margin: 16px;
+}
+
+.titulo-foto {
+    background-image: url(../imagenes/pasto.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo2 {
+    color: #030303;
+    font-size: 60px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background-color: rgb(255, 243, 174);
+    background-size: cover;
+    margin-bottom: 0.5px;
+}
+
+.contenedor-sobre-mundiales {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/09/23/13/vintage-933793_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.video-sobremundiales {
+    width: 550px;
+    height: auto;
+}
+
+.sobre-mundiales .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 5px;
+    color: #201f1f;
+    text-shadow: 1px 2px 2px rgb(15, 14, 14), 0 0 25px rgb(54, 54, 128),
+        0 0 5px rgb(18, 18, 209);
+}
+
+.contenido-textos h3 span {
+    background: #4d0686;
+    color: #050505;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    /* margin-top: 30px; */
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 100;
+    font-size: 100;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 1900;
+    color: hsla(0, 0%, 0%, 0.788);
+    text-shadow: 1px 2px 2px rgb(235, 230, 230), 0 0 25px rgb(193, 193, 196),
+        0 0 5px rgb(230, 230, 243);
+    margin-top: 25px;
+}
+
+.foto-campeones {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-bottom: 90px;
+    width: 100px;
+}
+
+/* GALERIA */
+
+.organismos {
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/09/17/26/background-texture-1382002_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.galeria-organismos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-organismos {
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen-organismos>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.7;
+}
+
+.hoover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(0, 0%, 0%, 0.7);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hoover-galeria a {
+    color: unset;
+    text-decoration: none;
+}
+
+.hoover-galeria img {
+    width: 200px;
+}
+
+.hoover-galeria p {
+    color: hsla(180, 33%, 98%, 0.788);
+}
+
+.imagen-organismos:hover .hoover-galeria {
+    transform: scale(1);
+}
+
+.about-us {
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/27/15/12/geeks-2894621_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+}
+
+.about-us .nosotros-ind p {
+    color: #fff;
+    text-shadow: 1px 2px 2px rgb(206, 202, 202), 0 0 25px rgb(193, 193, 196),
+        0 0 5px rgb(230, 230, 243);
+    font-size: 25px;
+}
+
+.nosotros-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* footer */
+
+footer {
+    background: #030303;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.conteiner-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+.foto-about-us .img-aboutus {
+    margin: 50px;
+    width: 140px;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+}
+
+.nosotros-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nosotros-ind p {
+    color: #080808;
+    text-align: center;
+    padding: 30px 50px 0 0;
+    flex: 1;
+    margin: 5px;
+}
+
+/*MUNDIALES*/
+
+.Indice {
+    background-image: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido-mundiales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.Indice h2 {
+    font-size: 56px;
+}
+
+.accordion-1930 button {
+    width: 100%;
+    background-image: url(https://img.freepik.com/foto-gratis/bandera-uruguay_1401-254.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1704672000&semt=ais);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-bottom: 5%;
+}
+
+.accordion-1934 button {
+    width: 100%;
+    background-image: url(https://img.freepik.com/vector-premium/bandera-italia-efecto-ondulado-proporcion-oficial_292608-2021.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-bottom: 5%;
+}
+
+.accordion-1938 button {
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/176/893/non_2x/flag-of-france-background-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-1950 button {
+    width: 100%;
+    background-image: url(https://t2.uc.ltmcdn.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgb(255, 254, 249);
+    margin-bottom: 5%;
+}
+
+.accordion-1954 button {
+    width: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bandera_de_Suiza.png/640px-Bandera_de_Suiza.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-1958 button {
+    width: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/2560px-Flag_of_Sweden.svg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgb(255, 254, 249);
+    margin-bottom: 5%;
+}
+
+.accordion-1962 button {
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/431/835/original/illustration-of-the-chile-flag-free-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-1966 button {
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/287/763/non_2x/england-national-flag-waving-realistic-illustration-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-bottom: 5%;
+}
+
+.accordion-1970 button {
+    width: 100%;
+    background-image: url(https://www.despensamexicana.es/large/Banderas-Mexicanas-i7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+    color: rgb(8, 8, 8);
+    opacity: 0.9;
+}
+
+.accordion-1974 button {
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+    color: rgb(255, 254, 249);
+}
+
+.accordion-1978 button {
+    width: 100%;
+    background-image: url(https://img.freepik.com/vector-gratis/ilustracion-bandera-argentina_53876-27120.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-1982 button {
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/070/285/non_2x/spain-flag-icon-in-official-color-and-proportion-correctly-free-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-1986 button {
+    width: 100%;
+    background-image: url(https://www.despensamexicana.es/large/Banderas-Mexicanas-i7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+    margin-bottom: 5%;
+    color: rgb(8, 8, 8);
+    opacity: 0.9;
+}
+
+.accordion-1990 button {
+    width: 100%;
+    background-image: url(https://img.freepik.com/vector-premium/bandera-italia-efecto-ondulado-proporcion-oficial_292608-2021.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-1994 button {
+    width: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-1998 button {
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/176/893/non_2x/flag-of-france-background-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-2002 button {
+    width: 100%;
+    background-image: url(https://img.freepik.com/fotos-premium/banderas-corea-sur-japon-primer-plano-bandera-lino-bandera-hecha-lienzo-simbolos-nacionales-estado-japones-seul-coreano-ilustracion-3d_630687-2313.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-2006 button {
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+.accordion-2010 button {
+    width: 100%;
+    background-image: url(https://wp.growproexperience.com/wp-content/uploads/2022/06/Todo-sobre-la-bandera-de-Suda%CC%81frica-Significado-e-historia-.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgb(143, 141, 141);
+    margin-bottom: 5%;
+}
+
+.accordion-2014 button {
+    width: 100%;
+    background-image: url(https://t2.uc.ltmcdn.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgb(255, 254, 249);
+    margin-bottom: 5%;
+}
+
+.accordion-2018 button {
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1298626865/es/v%C3%ADdeo/bandera-de-sat%C3%A9n-de-rusia-ondeando-la-textura-de-la-tela-real-de-la-bandera-de-rusia.jpg?s=640x640&k=20&c=Z1WXAAWnHy_onhDemLRMnEZlr5YV1XFLKEi3dEqzd74=);
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgb(255, 254, 249);
+    margin-bottom: 5%;
+}
+
+.accordion-2022 button {
+    width: 100%;
+    background-image: url(https://cdn2.dineroenimagen.com/media/dinero/images/2022/11/bandera-qatar-costumbre.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+/*JUGADORES DESTACADOS*/
+
+.jugadores-destacados {
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/22/17/06/gradient-1761190_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.galeria-jugadores {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-jugadores {
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen-jugadores>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hoover-jugadores {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(0, 0%, 0%, 0.7);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hoover-jugadores p {
+    color: hsla(180, 33%, 98%, 0.788);
+}
+
+.hoover-jugadores img {
+    width: 200px;
+}
+
+.imagen-jugadores:hover .hoover-jugadores {
+    transform: scale(1);
+}
+
+/*DT DESTACADOS*/
+
+.DT-destacados {
+    background-image: url(https://images.unsplash.com/photo-1517747614396-d21a78b850e8?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.galeria-DT {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-DT {
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen-DT>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hoover-DT {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(0, 0%, 0%, 0.7);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hoover-DT p {
+    color: hsla(180, 33%, 98%, 0.788);
+}
+
+.hoover-DT img {
+    width: 200px;
+}
+
+.imagen-DT:hover .hoover-DT {
+    transform: scale(1);
+}
+
+/*GALERIA DE IMÁGENES*/
+
+div.imagenesmundiales h1 {
+    height: 90px;
+    width: 150%;
+    margin: 45px;
+    font-size: 90px;
+    font-weight: 900;
+    color: hsla(192, 4%, 72%, 0.788);
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+}
+
+div.imagenesmundiales {
+    background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+}
+
+div.galerias {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    background-color: #7c5f5f;
+}
+
+div.galerias img {
+    width: 100%;
+    height: auto;
+}
+
+div.galerias:hover {
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+
+div.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(197, 191, 197);
+    padding: 10px;
+}
+
+/*los-mejores-goles*/
+
+.global {
+    background-image: url(https://images.unsplash.com/photo-1520698857293-5d763dde010f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.tituloini {
+    margin-bottom: 1%;
+}
+
+.contenido-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    margin: 0 5%;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(197, 191, 197);
+    padding: 10px;
+    margin-bottom: 0, 5%;
+    background-color: #6b626241;
+}
+
+.videos a {
+    text-decoration: none;
+    color: #d9d9e4;
+}
+
+/*que-mirá-bobo*/
+
+.contenedor-quemirabobo {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/139/266/574/argentina-barcelona-lionel-messi-wallpaper-preview.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+div.titulo-quemirabobo h1 {
+    height: 90px;
+    font-size: 90px;
+    font-weight: 950;
+    color: hsla(0, 0%, 0%, 0.979);
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+}
+
+div.videos-messi .video2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 32% 0 32%;
+}
+
+div.videos-messi .video2 p {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    padding: 10px;
+    font-size: 40px;
+    color: hsla(0, 0%, 0%, 0.979);
+}
+
+div.videos-messi .video3 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 32% 0 32%;
+}
+
+div.videos-messi .video3 p {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(12, 12, 12);
+    padding: 10px;
+    font-size: 40px;
+    color: hsla(0, 0%, 0%, 0.979);
+}
+
+div.paragraph-messi {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(197, 191, 197);
+    padding: 10px;
+}
+
+div.paragraph-messi h3 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 2px 2px rgb(17, 17, 17), 0 0 25px blue, 0 0 5px blue;
+    color: hsla(0, 0%, 0%, 0.979);
+}
+
+div.paragraph-messi p {
+    font-size: 25px;
+    font-weight: 1900;
+    text-shadow: 1px 2px 2px rgb(231, 228, 228), 0 0 25px rgb(145, 141, 141),
+        0 0 5px rgb(183, 183, 185);
+    color: hsla(0, 0%, 0%, 0.979);
+    margin-top: 25px;
+    justify-content: center;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+/*Celulares*/
+
+@media (width<=1400px) {
+    .logo-pagina {
+        display: none !important;
+    }
+
+    .contenedor-sobre-mundiales {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-sobre-mundiales iframe {
+        display: none !important;
+    }
+
+    .foto-campeones {
+        display: none !important;
+    }
+
+    .texto-media {
+        visibility: visible;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (width<=500px) {
+    .galeria-organismos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen-organismos {
+        width: 50%;
+        height: 230px;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+
+    .textos-header h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 55px;
+        font-size: 55px;
+    }
+
+    .textos-header h2 {
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .textos-header h3 {
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .textos-header h4 {
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .titulo2 {
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .texto-media {
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+        justify-content: center;
+        text-align: center;
+        font-size: 2px;
+    }
+
+    .photo-mundial {
+        width: 500px;
+        margin-bottom: 15px;
+    }
+}
