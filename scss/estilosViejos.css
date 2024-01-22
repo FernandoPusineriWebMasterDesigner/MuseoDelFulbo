@@ -1,19 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap");
 
-* {
-    /* margen */
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: "Open Sans", sans-serif;
-    font-style: 800;
-}
 
-.container {
+
+/* .container {
     padding: 60px 0;
     width: 90%;
     max-width: 1000px;
@@ -29,134 +20,21 @@ body {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     background-color: rgb(255, 243, 174);
     background-size: cover;
-}
+} */
 
 /* Header */
 
-.intro {
-    width: 100%;
-    background: #000046;
-    background: -webkit-linear-gradient(to right,
-            hwb(192 80% 22% / 0.589),
-            hsl(240, 80%, 14%)),
-        url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/19/16714678174157.jpg);
-    background: linear-gradient(to right,
-            hwb(0 78% 22% / 0.589),
-            hsl(240, 80%, 14%)),
-        url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/19/16714678174157.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
 
-nav {
-    text-align: center;
-    padding: 30px 50px 0 0;
-    flex: 1;
-}
 
-nav>a {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 10px;
-}
 
-nav>a:hover {
-    text-decoration: underline;
-    color: rgb(245, 228, 135);
-}
 
-.textos-header {
-    display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
 
-h1 {
-    height: 90px;
-    margin: 0px;
-    font-size: 90px;
-    font-weight: 900;
-    color: hsla(192, 85%, 51%, 0.788);
-    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
-
-.textos-header h1 {
-    font-size: 80px;
-    color: hsla(192, 85%, 51%, 0.788);
-    margin: 25px;
-}
-
-.textos-header h2 {
-    font-size: 40px;
-    color: hsla(0, 0%, 3%, 0.788);
-}
-
-.textos-header h3 {
-    font-size: 30px;
-    color: rgb(157, 197, 238);
-    margin-top: 42px;
-}
-
-.textos-header h4 {
-    font-size: 20px;
-    color: rgb(5, 5, 5);
-    margin-top: 42px;
-}
-
-.wave {
-    width: 100%;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo-pagina {
-    margin: 16px;
-}
-
-.titulo-foto {
+/* .titulo-foto {
     background-image: url(../imagenes/pasto.jpg);
     background-attachment: fixed;
     background-size: cover;
-}
+} */
 
-.titulo2 {
-    color: #030303;
-    font-size: 60px;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    background-color: rgb(255, 243, 174);
-    background-size: cover;
-    margin-bottom: 0.5px;
-}
-
-.contenedor-sobre-mundiales {
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url(https://cdn.pixabay.com/photo/2015/09/09/23/13/vintage-933793_1280.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: center;
-}
-
-.video-sobremundiales {
-    width: 550px;
-    height: auto;
-}
 
 .sobre-mundiales .contenido-textos {
     width: 48%;
@@ -186,7 +64,7 @@ header {
 .contenido-textos p {
     padding: 0px 0px 30px 15px;
     font-weight: 100;
-    font-size: 100;
+    font-size: 1rem;
     text-align: justify;
     font-size: 20px;
     font-weight: 1900;
@@ -194,6 +72,7 @@ header {
     text-shadow: 1px 2px 2px rgb(235, 230, 230), 0 0 25px rgb(193, 193, 196),
         0 0 5px rgb(230, 230, 243);
     margin-top: 25px;
+    
 }
 
 .foto-campeones {
@@ -288,12 +167,7 @@ header {
 
 /* footer */
 
-footer {
-    background: #030303;
-    padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
-}
+
 
 .conteiner-footer {
     display: flex;
