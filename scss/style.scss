@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap");
 
 * {
-    /* margen */
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,13 +50,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-footer {
-    background: #030303;
-    padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
 }
 
 .intro {
@@ -303,6 +294,10 @@ footer {
 }
 
 footer {
+    background: #030303;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -331,8 +326,7 @@ footer {
 
             a {
                 text-decoration: none;
-                color: rgb(248, 155, 155)
-                
+                color: rgb(248, 155, 155);
             }
         }
     }
@@ -348,12 +342,113 @@ footer {
     }
 }
 
-@media (width<=500px) {
-    .texto-media {
-        overflow: hidden;
+@media screen and (max-width: 500px) {
+    .logo-pagina {
+        display: none !important;
+    }
+    body {
+        background-color: lightblue;
     }
 
-    // .foto-campeones {
+    .intro {
+        font-size: 14px;
+    }
 
-    // }
-}
+    header {
+        background-color: #333;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .contenedorsobremundiales {
+        padding: 10px;
+        border: none;
+    }
+
+    .contenido-textos {
+        font-size: 14px;
+
+        .contenido-textos h3 {
+            font-size: 18px;
+        }
+
+        .contenido-textos p {
+            font-size: 14px;
+        }
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .texto-media p {
+        font-size: 12px;
+    }
+
+    .foto-campeones img {
+        max-width: 450%;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .conteiner-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content-foo {
+        margin: 10px;
+    }
+
+    .titulo-final-footer {
+        margin-top: 20px;
+    }
+
+    .hoover-galeria {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0; 
+        transition: opacity 0.3s ease; 
+    }
+
+    .imagen-organismos:hover .hoover-galeria {
+        opacity: 1; 
+    }
+
+    .hoover-galeria p {
+        color: #fff; 
+        font-size: 7px;
+    }
+
+    .hoover-galeria img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .hoover-galeria a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        height: auto;
+    }
+
+    }
+      
+
