@@ -209,21 +209,9 @@
     position: absolute;
 }
 
-.nosotros-cont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
 
-.nosotros-ind p {
-    color: #080808;
-    text-align: center;
-    padding: 30px 50px 0 0;
-    flex: 1;
-    margin: 5px;
-}
+
+
 
 /*MUNDIALES*/
 

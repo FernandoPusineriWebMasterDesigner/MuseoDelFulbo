@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap");
+
 * {
     /* margen */
 
@@ -76,6 +78,7 @@ footer {
 
     .logo-pagina {
         margin: 16px;
+        animation: rotacionlogo 5s infinite;
     }
 
     .textos-header {
@@ -126,7 +129,7 @@ footer {
     .contenedor-sobre-mundiales {
         display: flex;
         justify-content: space-evenly;
-        // background-image: url(https://cdn.pixabay.com/photo/2015/09/09/23/13/vintage-933793_1280.jpg);
+        background-image: url(https://images.unsplash.com/photo-1598347104365-2263f1870f8a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-size: cover;
         background-attachment: fixed;
         align-items: center;
@@ -140,8 +143,8 @@ footer {
         width: 80%;
 
         h3 {
-            margin-bottom: 5px;
-            color: #201f1f;
+            margin: 25px 0;
+            color: #0f68db;
             text-shadow:
                 1px 2px 2px rgb(15, 14, 14),
                 0 0 25px rgb(54, 54, 128),
@@ -149,15 +152,15 @@ footer {
         }
 
         h3 span {
-            background: #4d0686;
-            color: #050505;
+            background: #2350e6;
+            color: #f0eaea;
             border-radius: 50%;
             display: inline-block;
             text-align: center;
             width: 30px;
             height: 30px;
             padding: 2px;
-            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 6px 0 rgba(233, 231, 231, 0.5);
             margin-right: 5px;
             margin-top: 5px;
         }
@@ -169,11 +172,7 @@ footer {
             text-align: justify;
             font-size: 20px;
             font-weight: 1900;
-            color: hsla(0, 0%, 0%, 0.788);
-            text-shadow:
-                1px 2px 2px rgb(235, 230, 230),
-                0 0 25px rgb(193, 193, 196),
-                0 0 5px rgb(230, 230, 243);
+            color: hsla(0, 14%, 95%, 0.788);
             margin-top: 25px;
         }
 
@@ -184,22 +183,177 @@ footer {
     }
 
     .texto-media {
-        visibility: visible;
+        display: none;
         justify-content: center;
         text-align: center;
-        
+    }
+
+    .foto-campeones {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 90px;
+        width: 100px;
+    }
+}
+
+.organismos {
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/09/17/26/background-texture-1382002_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    .contenedor-organismos {
+        .titulo {
+            color: #030303;
+            font-size: 60px;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            background-color: rgb(255, 243, 174);
+            background-size: cover;
+            margin-bottom: 0.5px;
+        }
+    }
+
+    .galeria-organismos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 25px;
+
+        .hoover-galeria {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            transform: scale(0);
+            background: hsla(0, 0%, 0%, 0.7);
+            transition: transform 0.5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            a {
+                color: unset;
+                text-decoration: none;
+            }
+
+            img {
+                width: auto;
+                height: auto;
+            }
+
+            p {
+                color: hsla(180, 33%, 98%, 0.788);
+            }
+        }
+    }
+
+    .imagen-organismos {
+        width: 24%;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+
+        &:hover .hoover-galeria {
+            transform: scale(1);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            opacity: 0.7;
+        }
+    }
+}
+
+.about-us {
+    background-image: url(https://images.unsplash.com/photo-1570876050997-2fdefb00c004?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+
+    .titulo {
+        color: #030303;
+        font-size: 60px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        background-color: rgb(255, 243, 174);
+        background-size: cover;
+        margin-bottom: 0.5px;
+    }
+
+    .nosotros-ind {
+        p {
+            padding: 0px 0px 30px 15px;
+            font-weight: 100;
+            font-size: 1rem;
+            text-align: justify;
+            font-size: 20px;
+            font-weight: 1900;
+            color: hsl(0, 11%, 89%);
+            margin-top: 25px;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .conteiner-footer {
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ccc;
+
+        .content-foo {
+            text-align: center;
+
+            h4 {
+                color: #fff;
+                border-bottom: 3px solid #af20d3;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: #ccc;
+            }
+
+            a {
+                text-decoration: none;
+                color: rgb(248, 155, 155)
+                
+            }
+        }
+    }
+}
+
+@keyframes rotacionlogo {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
     }
 }
 
 @media (width<=500px) {
     .texto-media {
-        width: 250px;
-        overflow: visible;
+        overflow: hidden;
     }
 
-    .foto-campeones{
+    // .foto-campeones {
 
-    display: none;
-
-    }
+    // }
 }
