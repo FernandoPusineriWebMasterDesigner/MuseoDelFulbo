@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.boton {
+  display: none !important;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-style: 800;
@@ -115,6 +119,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 80%;
+  margin-bottom: 20px;
 }
 .contenedorsobremundiales .contenido-textos h3 {
   margin: 25px 0;
@@ -154,12 +159,11 @@ header {
   text-align: center;
 }
 .contenedorsobremundiales .foto-campeones {
-  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 90px;
-  width: 100px;
+  width: auto;
+  margin: auto;
 }
 
 .organismos {
@@ -240,13 +244,17 @@ header {
   background-size: cover;
   margin-bottom: 0.5px;
 }
+.about-us .nosotros-ind {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .about-us .nosotros-ind p {
+  width: 70%;
   padding: 0px 0px 30px 15px;
   font-weight: 100;
   font-size: 1rem;
-  text-align: justify;
-  font-size: 20px;
-  font-weight: 1900;
   color: hsl(0, 11%, 89%);
   margin-top: 25px;
 }
@@ -497,8 +505,8 @@ footer .conteiner-footer .content-foo a {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 }
 .imagen-jugadores > img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
@@ -530,6 +538,19 @@ footer .conteiner-footer .content-foo a {
   background-image: url(https://images.unsplash.com/photo-1517747614396-d21a78b850e8?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-attachment: fixed;
+}
+.DT-destacados .titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #030303;
+  font-size: 60px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(255, 243, 174);
+  background-size: cover;
+  margin-bottom: 0.5px;
 }
 
 .galeria-DT {
@@ -709,87 +730,130 @@ div.paragraph-messi p {
     transform: rotate(359deg);
   }
 }
-@media screen and (max-width: 500px) {
-  .logo-pagina {
+@media (width <= 660px) {
+  .boton {
+    display: block !important;
+    margin-top: 30px;
+    width: 150px;
+    background-color: #030303;
+  }
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .offcanvas-body a {
+    color: #030303;
+    text-decoration: none;
+  }
+  .intro .textos-header {
+    height: auto;
+  }
+  .intro .textos-header h1 {
+    height: auto;
+  }
+  body .logo-pagina {
     display: none !important;
   }
-  body {
-    background-color: lightblue;
+  nav {
+    display: none !important;
   }
-  .intro {
-    font-size: 14px;
+  .foto-campeones {
+    width: 220px;
+    height: auto;
+    min-width: 250px;
   }
-  .intro nav a {
-    font-size: 12px;
+  .foto-campeones img {
+    width: 290px;
+    height: auto;
+    min-width: 250px;
   }
-  header {
-    background-color: #333;
+  .contenedor-sobre-mundiales .contenido-textos p {
+    width: 90%;
+    font-size: 1rem;
   }
-  .textos-header h1 {
-    font-size: 1.5em;
+  .galeria-organismos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .textos-header h2 {
-    font-size: 1.2em;
+  .organismos .imagen-organismos {
+    width: 90%;
+    height: auto;
   }
-  .textos-header h3 {
-    font-size: 1em;
+  .contenedorsobremundiales .contenido-textos iframe {
+    width: 90%;
+    height: auto;
   }
-  .textos-header h4 {
-    font-size: 0.8em;
+  footer .conteiner-footer {
+    display: unset;
   }
-  .Indice {
-    background-size: contain;
-  }
-  .Indice h2 {
-    font-size: 36px;
+  .titulo-final-footer h2 {
+    font-size: 1rem;
   }
   .contenido-mundiales {
-    width: 100%;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
-  .accordion-button {
-    font-size: 24px;
-    margin-bottom: 2%;
+  .contenido-mundiales button {
+    font-size: 2rem;
   }
-  .accordion-item {
-    overflow: hidden;
+  .jugadores-destacados .imagen-jugadores {
+    width: 350px;
+    height: 350px;
   }
-  .accordion-item .accordion-button {
-    margin: 5px;
-    padding: 5px;
-    margin-bottom: 2%;
+  .galeria-jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
   }
-  .accordion-item .accordion-collapse {
-    display: block;
+  .DT-destacados .imagen-DT {
+    width: 350px;
+    height: 350px;
   }
-  .accordion-item .accordion-collapse .accordion-body {
-    font-size: 18px;
-    padding: 10px;
+  .galeria-DT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
   }
-  .accordion-1930 button,
-  .accordion-1934 button,
-  .accordion-1938 button,
-  .accordion-1950 button,
-  .accordion-1954 button,
-  .accordion-1958 button,
-  .accordion-1962 button,
-  .accordion-1966 button,
-  .accordion-1970 button,
-  .accordion-1974 button,
-  .accordion-1978 button,
-  .accordion-1982 button,
-  .accordion-1986 button,
-  .accordion-1990 button,
-  .accordion-1994 button,
-  .accordion-1998 button,
-  .accordion-2002 button,
-  .accordion-2006 button,
-  .accordion-2010 button,
-  .accordion-2014 button,
-  .accordion-2018 button,
-  .accordion-2022 button {
-    font-size: 24px;
-    margin-bottom: 2%;
+}
+@media (width <= 1024px) {
+  .galeria-organismos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .organismos .imagen-organismos {
+    width: 90%;
+    height: auto;
+  }
+  .jugadores-destacados .imagen-jugadores {
+    width: 350px;
+    height: 350px;
+  }
+  .galeria-jugadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+  .DT-destacados .imagen-DT {
+    width: 350px;
+    height: 350px;
+  }
+  .galeria-DT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
   }
 }
 

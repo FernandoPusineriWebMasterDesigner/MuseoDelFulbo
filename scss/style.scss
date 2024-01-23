@@ -1,14 +1,14 @@
-$font-family: 'Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif';
-$imagen-fondo: url(https://images.unsplash.com/photo-1520698857293-5d763dde010f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-$color-fondo-contenido: #6b626241;
-$color-texto-enlaces: #d9d9e4;
-
+@import "../css/partial/variables";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.boton {
+    display: none !important;
 }
 
 body {
@@ -137,6 +137,7 @@ header {
         justify-content: center;
         align-items: center;
         width: 80%;
+        margin-bottom: 20px;
 
         h3 {
             margin: 25px 0;
@@ -185,12 +186,11 @@ header {
     }
 
     .foto-campeones {
-        justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        margin-bottom: 90px;
-        width: 100px;
+        width: auto;
+        margin: auto;
     }
 }
 
@@ -285,13 +285,15 @@ header {
     }
 
     .nosotros-ind {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         p {
+            width: 70%;
             padding: 0px 0px 30px 15px;
             font-weight: 100;
             font-size: 1rem;
-            text-align: justify;
-            font-size: 20px;
-            font-weight: 1900;
             color: hsl(0, 11%, 89%);
             margin-top: 25px;
         }
@@ -604,8 +606,8 @@ footer {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 
     > img {
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         display: block;
     }
@@ -644,6 +646,20 @@ footer {
     background-image: url(https://images.unsplash.com/photo-1517747614396-d21a78b850e8?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-attachment: fixed;
+
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #030303;
+        font-size: 60px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        background-color: rgb(255, 243, 174);
+        background-size: cover;
+        margin-bottom: 0.5px;
+    }
 }
 
 .galeria-DT {
@@ -775,14 +791,12 @@ div.pie {
 
 //aca termina los mejores goles//
 
-
 .contenedor-quemirabobo {
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/139/266/574/argentina-barcelona-lionel-messi-wallpaper-preview.jpg);
     background-size: cover;
     background-attachment: fixed;
     opacity: 0.7;
 }
-
 
 div.titulo-quemirabobo {
     h1 {
@@ -796,7 +810,6 @@ div.titulo-quemirabobo {
             0 0 5px blue;
     }
 }
-
 
 div.videos-messi {
     .video2,
@@ -817,7 +830,6 @@ div.videos-messi {
         }
     }
 }
-
 
 div.paragraph-messi {
     text-align: center;
@@ -860,105 +872,189 @@ div.paragraph-messi {
     }
 }
 
-@media screen and (max-width: 500px) {
-    .logo-pagina {
+@media (width<=660px) {
+    .boton {
+        display: block !important;
+        margin-top: 30px;
+        width: 150px;
+        background-color: #030303;
+    }
+
+    .offcanvas-body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        a {
+            color: #030303;
+            text-decoration: none;
+        }
+    }
+
+    .intro .textos-header {
+        height: auto;
+
+        h1 {
+            height: auto;
+        }
+    }
+
+    body {
+        .logo-pagina {
+            display: none !important;
+        }
+    }
+
+    nav {
         display: none !important;
     }
-    body {
-        background-color: lightblue;
-    }
+    .foto-campeones {
+        width: 220px;
+        height: auto;
+        min-width: 250px;
 
-    .intro {
-        font-size: 14px;
-
-        nav a {
-            font-size: 12px;
+        img {
+            width: 290px;
+            height: auto;
+            min-width: 250px;
         }
     }
-
-    header {
-        background-color: #333;
-    }
-
-    .textos-header {
-        h1 {
-            font-size: 1.5em;
-        }
-
-        h2 {
-            font-size: 1.2em;
-        }
-
-        h3 {
-            font-size: 1em;
-        }
-
-        h4 {
-            font-size: 0.8em;
-        }
-    }
-
-    .Indice {
-        background-size: contain;
-        h2 {
-            font-size: 36px;
-        }
-    }
-
-    .contenido-mundiales {
-        width: 100%;
-        margin: 0;
-    }
-
-    .accordion-button {
-        font-size: 24px;
-        margin-bottom: 2%;
-    }
-
-    .accordion-item {
-        overflow: hidden;
-
-        .accordion-button {
-            margin: 5px;
-            padding: 5px;
-            margin-bottom: 2%;
-        }
-
-        .accordion-collapse {
-            display: block;
-
-            .accordion-body {
-                font-size: 18px;
-                padding: 10px;
+    .contenedor-sobre-mundiales {
+        .contenido-textos {
+            p {
+                width: 90%;
+                font-size: 1rem;
             }
         }
     }
 
-    .accordion-1930,
-    .accordion-1934,
-    .accordion-1938,
-    .accordion-1950,
-    .accordion-1954,
-    .accordion-1958,
-    .accordion-1962,
-    .accordion-1966,
-    .accordion-1970,
-    .accordion-1974,
-    .accordion-1978,
-    .accordion-1982,
-    .accordion-1986,
-    .accordion-1990,
-    .accordion-1994,
-    .accordion-1998,
-    .accordion-2002,
-    .accordion-2006,
-    .accordion-2010,
-    .accordion-2014,
-    .accordion-2018,
-    .accordion-2022 {
-        button {
-            font-size: 24px;
-            margin-bottom: 2%;
+    .galeria-organismos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .organismos {
+        .imagen-organismos {
+            width: 90%;
+            height: auto;
         }
     }
+
+    .contenedorsobremundiales .contenido-textos iframe {
+        width: 90%;
+        height: auto;
+    }
+
+    footer .conteiner-footer {
+        display: unset;
+    }
+
+    .titulo-final-footer h2 {
+        font-size: 1rem;
+    }
+
+    .contenido-mundiales {
+        display: flex;
+        flex-direction: column;
+
+        button {
+            font-size: 2rem;
+        }
+    }
+
+    .jugadores-destacados{
+
+        .imagen-jugadores{
+            width: 350px;
+            height: 350px;
+            
+        }
+    }
+
+    .galeria-jugadores{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .DT-destacados{
+
+        .imagen-DT{
+
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    .galeria-DT{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+    
+}
+
+@media (width<=1024px) {
+
+
+    .galeria-organismos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .organismos {
+        .imagen-organismos {
+            width: 90%;
+            height: auto;
+        }
+    }
+
+
+    .jugadores-destacados{
+
+        .imagen-jugadores{
+            width: 350px;
+            height: 350px;
+            
+        }
+    }
+
+    .galeria-jugadores{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .DT-destacados{
+
+        .imagen-DT{
+
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    .galeria-DT{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+
 }

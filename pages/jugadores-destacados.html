@@ -5,15 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Museo Del Fulbo</title>
     <link rel="icon page" href="../imagenes/logo pag.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../css/style.css" />
-    <style>
-      /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap"); */
-    </style>
+    <style></style>
   </head>
-
   <body>
     <div class="intro">
       <header>
+        <button
+          class="btn btn-primary boton"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+        >
+          MENÚ
+        </button>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          data-bs-backdrop="false"
+          tabindex="-1"
+          id="offcanvasScrolling"
+          aria-labelledby="offcanvasScrollingLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+              ACCESO A TODO EL CONTENIDO
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <a href="../index.html">INICIO</a>
+            <a href="../pages/mundiales.html">MUNDIALES</a>
+            <a href="../pages/jugadores-destacados.html">JUGADORES DESTACADOS</a>
+            <a href="../pages/dt-destacados.html">DT DESTACADOS</a>
+            <a href="../pages/galeria-de-imagenes.html">GALERIA DE IMÁGENES</a>
+            <a href="../pages/los-mejores-goles.html">LOS MEJORES GOLES</a>
+            <a href="../pages/que-mirá-bobo.html">QUE MIRÁ BOBO ?</a>
+          </div>
+        </div>
         <img src="../imagenes/logo pag.png" alt="" class="logo-pagina" />
         <nav>
           <a href="../index.html">INICIO</a>
@@ -50,7 +101,10 @@
           <h2 class="titulo">TOP 10 JUGADORES DESTACADOS</h2>
           <div class="galeria-jugadores">
             <div class="imagen-jugadores">
-              <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt12dbddde5342ce4c/648866ff21a8556da61fa167/GOAL_-_Blank_WEB_-_Facebook_-_2023-06-13T135350.847.png?auto=webp&format=pjpg&width=3840&quality=60" alt="" />
+              <img
+                src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt12dbddde5342ce4c/648866ff21a8556da61fa167/GOAL_-_Blank_WEB_-_Facebook_-_2023-06-13T135350.847.png?auto=webp&format=pjpg&width=3840&quality=60"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>
@@ -60,7 +114,10 @@
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://media.revistagq.com/photos/5d271f0e987c410008630f2c/master/pass/GettyImages-984947608.jpg" alt="" />
+              <img
+                src="https://media.revistagq.com/photos/5d271f0e987c410008630f2c/master/pass/GettyImages-984947608.jpg"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>
@@ -69,7 +126,10 @@
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg" alt="" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>
@@ -79,21 +139,30 @@
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2017/08/22/A10683FB-B39A-4088-901C-265A12793FE4/98.jpg?crop=2323,1307,x0,y0&width=1900&height=1069&optimize=low&format=webply" alt="" />
+              <img
+                src="https://fotografias.lasexta.com/clipping/cmsimages01/2017/08/22/A10683FB-B39A-4088-901C-265A12793FE4/98.jpg?crop=2323,1307,x0,y0&width=1900&height=1069&optimize=low&format=webply"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>Zinedine Zidane | 12 partidos/3 mundiales | 5 goles</p>
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/JDEKYLHUVBNPPNKYQNIKVUH3CY.jpg" alt="" />
+              <img
+                src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/JDEKYLHUVBNPPNKYQNIKVUH3CY.jpg"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>Miroslav Klose | 24 partidos/4 mundiales | 16 goles</p>
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://www.elindependiente.com/wp-content/uploads/2024/01/beckkenn.jpg" alt="" />
+              <img
+                src="https://www.elindependiente.com/wp-content/uploads/2024/01/beckkenn.jpg"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>
@@ -102,14 +171,20 @@
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://www.mundodeportivo.com/us/files/article_main_microformat/uploads/2022/05/12/627d084bb47d0.jpeg" alt="" />
+              <img
+                src="https://www.mundodeportivo.com/us/files/article_main_microformat/uploads/2022/05/12/627d084bb47d0.jpeg"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>Gary Lineker | 12 partidos/2 mundiales | 10 goles</p>
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2019/02/26/336461.jpg" alt="" />
+              <img
+                src="https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2019/02/26/336461.jpg"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>
@@ -118,14 +193,20 @@
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://plazadeportiva.valenciaplaza.com/public/Image/2018/5/andres-iniesta-13-10-2017_NoticiaAmpliada.jpg" alt="" />
+              <img
+                src="https://plazadeportiva.valenciaplaza.com/public/Image/2018/5/andres-iniesta-13-10-2017_NoticiaAmpliada.jpg"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>Andrés Iniesta | 14 partidos/4 mundiales | 2 goles</p>
               </div>
             </div>
             <div class="imagen-jugadores">
-              <img src="https://tmssl.akamaized.net/images/foto/galerie/ronaldo-luis-nazario-de-lima-1472042256-5977.jpg?lm=1483606131" alt="" />
+              <img
+                src="https://tmssl.akamaized.net/images/foto/galerie/ronaldo-luis-nazario-de-lima-1472042256-5977.jpg?lm=1483606131"
+                alt=""
+              />
               <div class="hoover-jugadores">
                 <img src="../imagenes/logo pag.png" alt="" />
                 <p>
@@ -208,7 +289,6 @@
       <h2 class="titulo-final-footer">
         &copy;FernandoPusineri WebMasterDesigner
       </h2>
-
     </footer>
   </body>
 </html>
