@@ -1,60 +1,32 @@
+@import "../css/partial/generales";
 @import "../css/partial/variables";
+@import "../css/partial/animaciones";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap");
+%hoover-styles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(0, 0%, 0%, 0.7);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    p {
+        color: hsla(180, 33%, 98%, 0.788);
+    }
 
-.boton {
-    display: none !important;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-    font-style: 800;
-}
-
-nav {
-    text-align: center;
-    padding: 30px 50px 0 0;
-    flex: 1;
-}
-
-nav > a {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 10px;
-
-    &:hover {
-        text-decoration: underline;
-        color: rgb(245, 228, 135);
+    img {
+        width: 200px;
     }
 }
 
-h1 {
-    height: 90px;
-    margin: 0px;
-    font-size: 90px;
-    font-weight: 900;
-    color: hsla(192, 85%, 51%, 0.788);
-    text-shadow:
-        1px 2px 2px black,
-        0 0 25px blue,
-        0 0 5px blue;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.boton {
+    display: none !important;
 }
 
 .intro {
@@ -678,25 +650,7 @@ footer {
 }
 
 .hoover-DT {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(0, 0%, 0%, 0.7);
-    transition: transform 0.5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hoover-DT p {
-    color: hsla(180, 33%, 98%, 0.788);
-}
-
-.hoover-DT img {
-    width: 200px;
+    @extend %hoover-styles;
 }
 
 .imagen-DT:hover .hoover-DT {
@@ -848,15 +802,6 @@ div.paragraph-messi {
     }
 }
 
-@keyframes rotacionlogo {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
-}
 
 @media (width<=660px) {
     .boton {
@@ -1011,6 +956,23 @@ div.paragraph-messi {
             height: auto;
         }
     }
+
+    .contenedor-quemirabobo {
+        .titulo-quemirabobo h1 {
+            font-size: 25px;
+        }
+
+        .videos-messi {
+            margin-top: 55px;
+            iframe {
+                width: 55px;
+            }
+
+            p {
+                display: none;
+            }
+        }
+    }
 }
 @media (width<=1024px) {
     body {
@@ -1095,5 +1057,22 @@ div.paragraph-messi {
 
     .global h1 {
         font-size: 45px;
+    }
+
+    .contenedor-quemirabobo {
+        .titulo-quemirabobo h1 {
+            font-size: 55px;
+        }
+
+        .videos-messi {
+            iframe {
+                width: 690px;
+                margin: 55px;
+            }
+
+            p {
+                display: none;
+            }
+        }
     }
 }

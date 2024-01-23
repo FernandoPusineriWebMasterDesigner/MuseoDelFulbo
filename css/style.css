@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-.boton {
-  display: none !important;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-style: 800;
@@ -49,6 +45,38 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@keyframes rotacionlogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.hoover-DT {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: hsla(0, 0%, 0%, 0.7);
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hoover-DT p {
+  color: hsla(180, 33%, 98%, 0.788);
+}
+.hoover-DT img {
+  width: 200px;
+}
+
+.boton {
+  display: none !important;
 }
 
 .intro {
@@ -574,28 +602,6 @@ footer .conteiner-footer .content-foo a {
   display: block;
 }
 
-.hoover-DT {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  transform: scale(0);
-  background: hsla(0, 0%, 0%, 0.7);
-  transition: transform 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.hoover-DT p {
-  color: hsla(180, 33%, 98%, 0.788);
-}
-
-.hoover-DT img {
-  width: 200px;
-}
-
 .imagen-DT:hover .hoover-DT {
   transform: scale(1);
 }
@@ -722,14 +728,6 @@ div.paragraph-messi p {
   color: hsla(0, 0%, 0%, 0.979);
 }
 
-@keyframes rotacionlogo {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
 @media (width <= 660px) {
   .boton {
     display: block !important;
@@ -845,6 +843,18 @@ div.paragraph-messi p {
     width: 75%;
     height: auto;
   }
+  .contenedor-quemirabobo .titulo-quemirabobo h1 {
+    font-size: 25px;
+  }
+  .contenedor-quemirabobo .videos-messi {
+    margin-top: 55px;
+  }
+  .contenedor-quemirabobo .videos-messi iframe {
+    width: 55px;
+  }
+  .contenedor-quemirabobo .videos-messi p {
+    display: none;
+  }
 }
 @media (width <= 1024px) {
   body .logo-pagina {
@@ -908,6 +918,16 @@ div.paragraph-messi p {
   }
   .global h1 {
     font-size: 45px;
+  }
+  .contenedor-quemirabobo .titulo-quemirabobo h1 {
+    font-size: 55px;
+  }
+  .contenedor-quemirabobo .videos-messi iframe {
+    width: 690px;
+    margin: 55px;
+  }
+  .contenedor-quemirabobo .videos-messi p {
+    display: none;
   }
 }
 

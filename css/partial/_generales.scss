@@ -1,0 +1,56 @@
+@mixin estiloNav {
+    text-align: center;
+    padding: 30px 50px 0 0;
+    flex: 1;
+
+    > a {
+        color: #fff;
+        font-weight: 300;
+        text-decoration: none;
+        font-size: 16px;
+        margin-right: 10px;
+
+        &:hover {
+            text-decoration: underline;
+            color: rgb(245, 228, 135);
+        }
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: 800;
+}
+
+nav {
+    @include estiloNav;
+    
+}
+
+h1 {
+    height: 90px;
+    margin: 0px;
+    font-size: 90px;
+    font-weight: 900;
+    color: hsla(192, 85%, 51%, 0.788);
+    text-shadow:
+        1px 2px 2px black,
+        0 0 25px blue,
+        0 0 5px blue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
