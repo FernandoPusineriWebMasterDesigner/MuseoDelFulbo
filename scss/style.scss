@@ -882,7 +882,8 @@ div.paragraph-messi {
         display: unset;
     }
 
-    .titulo-final-footer h2 {
+    .titulo-final-footer  {
+        padding: 0 5%;
         font-size: 1rem;
     }
 
@@ -897,12 +898,14 @@ div.paragraph-messi {
 
     .jugadores-destacados {
         .imagen-jugadores {
+            margin-bottom: 5px;
             width: 350px;
             height: 350px;
         }
     }
 
     .galeria-jugadores {
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -957,22 +960,7 @@ div.paragraph-messi {
         }
     }
 
-    .contenedor-quemirabobo {
-        .titulo-quemirabobo h1 {
-            font-size: 25px;
-        }
-
-        .videos-messi {
-            margin-top: 55px;
-            iframe {
-                width: 55px;
-            }
-
-            p {
-                display: none;
-            }
-        }
-    }
+    
 }
 @media (width<=1024px) {
     body {
@@ -1055,24 +1043,6 @@ div.paragraph-messi {
         }
     }
 
-    .global h1 {
-        font-size: 45px;
-    }
 
-    .contenedor-quemirabobo {
-        .titulo-quemirabobo h1 {
-            font-size: 55px;
-        }
-
-        .videos-messi {
-            iframe {
-                width: 690px;
-                margin: 55px;
-            }
-
-            p {
-                display: none;
-            }
-        }
-    }
+    
 }

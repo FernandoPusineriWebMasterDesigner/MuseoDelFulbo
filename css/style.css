@@ -15,7 +15,6 @@ nav {
   padding: 30px 50px 0 0;
   flex: 1;
 }
-
 nav > a {
   color: #fff;
   font-weight: 300;
@@ -787,7 +786,8 @@ div.paragraph-messi p {
   footer .conteiner-footer {
     display: unset;
   }
-  .titulo-final-footer h2 {
+  .titulo-final-footer {
+    padding: 0 5%;
     font-size: 1rem;
   }
   .contenido-mundiales {
@@ -798,6 +798,7 @@ div.paragraph-messi p {
     font-size: 2rem;
   }
   .jugadores-destacados .imagen-jugadores {
+    margin-bottom: 5px;
     width: 350px;
     height: 350px;
   }
@@ -842,18 +843,6 @@ div.paragraph-messi p {
   .contenido-videos iframe {
     width: 75%;
     height: auto;
-  }
-  .contenedor-quemirabobo .titulo-quemirabobo h1 {
-    font-size: 25px;
-  }
-  .contenedor-quemirabobo .videos-messi {
-    margin-top: 55px;
-  }
-  .contenedor-quemirabobo .videos-messi iframe {
-    width: 55px;
-  }
-  .contenedor-quemirabobo .videos-messi p {
-    display: none;
   }
 }
 @media (width <= 1024px) {
@@ -915,19 +904,6 @@ div.paragraph-messi p {
   }
   .contenido-videos h2 {
     font-size: 25px;
-  }
-  .global h1 {
-    font-size: 45px;
-  }
-  .contenedor-quemirabobo .titulo-quemirabobo h1 {
-    font-size: 55px;
-  }
-  .contenedor-quemirabobo .videos-messi iframe {
-    width: 690px;
-    margin: 55px;
-  }
-  .contenedor-quemirabobo .videos-messi p {
-    display: none;
   }
 }
 
