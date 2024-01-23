@@ -824,8 +824,8 @@ div.paragraph-messi p {
   div.imagenesmundiales h1 {
     font-size: 25px;
   }
-  .global h1 {
-    font-size: 15px;
+  .global .tituloini h1 {
+    font-size: 25px;
   }
   .contenido-videos {
     margin-top: 45px;
@@ -844,20 +844,6 @@ div.paragraph-messi p {
   .contenido-videos iframe {
     width: 75%;
     height: auto;
-  }
-  div.titulo-quemirabobo h1 {
-    font-size: 25px;
-    margin-bottom: 5%;
-  }
-  .videos-messi iframe {
-    width: 75%;
-  }
-  .videos-messi p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    font-size: 1rem;
   }
 }
 @media (width <= 1024px) {
