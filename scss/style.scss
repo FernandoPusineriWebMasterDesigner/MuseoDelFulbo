@@ -880,6 +880,7 @@ div.paragraph-messi {
         background-color: #030303;
     }
 
+
     .offcanvas-body {
         display: flex;
         flex-direction: column;
@@ -964,17 +965,14 @@ div.paragraph-messi {
         }
     }
 
-    .jugadores-destacados{
-
-        .imagen-jugadores{
+    .jugadores-destacados {
+        .imagen-jugadores {
             width: 350px;
             height: 350px;
-            
         }
     }
 
-    .galeria-jugadores{
-
+    .galeria-jugadores {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -982,29 +980,25 @@ div.paragraph-messi {
         object-fit: contain;
     }
 
-    .DT-destacados{
-
-        .imagen-DT{
-
+    .DT-destacados {
+        .imagen-DT {
             width: 350px;
             height: 350px;
         }
     }
 
-    .galeria-DT{
-
+    .galeria-DT {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         object-fit: contain;
     }
+
     
+
 }
-
 @media (width<=1024px) {
-
-
     .galeria-organismos {
         display: flex;
         flex-direction: column;
@@ -1019,18 +1013,14 @@ div.paragraph-messi {
         }
     }
 
-
-    .jugadores-destacados{
-
-        .imagen-jugadores{
+    .jugadores-destacados {
+        .imagen-jugadores {
             width: 350px;
             height: 350px;
-            
         }
     }
 
-    .galeria-jugadores{
-
+    .galeria-jugadores {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1038,23 +1028,19 @@ div.paragraph-messi {
         object-fit: contain;
     }
 
-    .DT-destacados{
-
-        .imagen-DT{
-
+    .DT-destacados {
+        .imagen-DT {
             width: 350px;
             height: 350px;
         }
     }
 
-    .galeria-DT{
-
+    .galeria-DT {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         object-fit: contain;
     }
-
 
 }
