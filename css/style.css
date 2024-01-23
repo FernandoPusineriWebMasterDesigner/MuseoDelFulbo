@@ -689,11 +689,8 @@ div.pie {
     color: #030303;
     text-decoration: none;
   }
-  .intro .textos-header {
-    height: auto;
-  }
-  .intro .textos-header h1 {
-    height: auto;
+  #a {
+    font-size: 1rem;
   }
   body .logo-pagina {
     display: none !important;
