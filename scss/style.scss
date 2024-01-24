@@ -1,12 +1,13 @@
 @import "../css/partial/index";
+@import "../css/partial/maps";
 @import "../css/partial/generales";
 @import "../css/partial/variables";
 @import "../css/partial/animaciones";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500;1,600&display=swap");
 %hoover-styles {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: map-get($tamaños,ancho);
+    height: map-get($tamaños,altura);
     top: 0;
     transform: scale(0);
     background: hsla(0, 0%, 0%, 0.7);
@@ -30,7 +31,7 @@
 }
 
 .intro {
-    width: 100%;
+    width: map-get($tamaños,ancho);
     background: #000046;
     background: -webkit-linear-gradient(to right, hwb(192 80% 22% / 0.589), hsl(240, 80%, 14%)),
         url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/19/16714678174157.jpg);
@@ -41,7 +42,7 @@
     position: relative;
 
     .wave {
-        width: 100%;
+        width: map-get($tamaños,ancho);
     }
 
     .logo-pagina {
@@ -52,7 +53,7 @@
     .textos-header {
         display: flex;
         height: 430px;
-        width: 100%;
+        width: map-get($tamaños,ancho);
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -126,12 +127,12 @@ footer {
 }
 
 .accordion-button {
-    width: 100%;
+    width: map-get($tamaños,ancho);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     font-family: #{$font-family};
-    font-size: 25px;
+    font-size: map-get($tamaños, tamañofuente);
     margin-bottom: 5%;
 
     &.accordion-1970,
@@ -358,16 +359,16 @@ footer {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 
     > img {
-        width: 100%;
-        height: 100%;
+        width: map-get($tamaños,ancho);
+        height: map-get($tamaños,altura);
         object-fit: cover;
         display: block;
     }
 
     .hoover-jugadores {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: map-get($tamaños,ancho);
+        height: map-get($tamaños,altura);
         top: 0;
         transform: scale(0);
         background: hsla(0, 0%, 0%, 0.7);
@@ -427,8 +428,8 @@ footer {
 }
 
 .imagen-DT > img {
-    width: 100%;
-    height: 100%;
+    width: map-get($tamaños,ancho);
+    height: map-get($tamaños,altura);
     object-fit: cover;
     display: block;
 }
@@ -474,7 +475,7 @@ div.galerias {
     background-color: #7c5f5f;
 
     img {
-        width: 100%;
+        width: map-get($tamaños,ancho);
         height: auto;
     }
 
