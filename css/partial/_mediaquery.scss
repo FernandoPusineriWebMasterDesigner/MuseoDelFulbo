@@ -28,16 +28,16 @@
     nav {
         display: none !important;
     }
-    .foto-campeones {
-        width: 220px;
-        height: auto;
-        min-width: 250px;
+    // .foto-campeones {
+    //     width: 220px;
+    //     height: auto;
+    //     min-width: 250px;
 
-        img {
-            width: 290px;
-            height: auto;
-            min-width: 250px;
-        }
+    //     img {
+    //         width: 290px;
+    //         height: auto;
+    //         min-width: 250px;
+    //     }
     }
     .contenedor-sobre-mundiales {
         .contenido-textos {
@@ -139,7 +139,7 @@
             height: auto;
         }
     }
-}
+
 @media (width<=1024px) {
     body {
         .logo-pagina {

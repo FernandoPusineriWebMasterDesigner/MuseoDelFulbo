@@ -671,89 +671,92 @@ div.pie {
   nav {
     display: none !important;
   }
-  .foto-campeones {
-    width: 220px;
-    height: auto;
-    min-width: 250px;
-  }
-  .foto-campeones img {
-    width: 290px;
-    height: auto;
-    min-width: 250px;
-  }
-  .contenedor-sobre-mundiales .contenido-textos p {
-    width: 90%;
-    font-size: 1rem;
-  }
-  .galeria-organismos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .organismos .imagen-organismos {
-    width: 90%;
-    height: auto;
-  }
-  .contenedorsobremundiales .contenido-textos iframe {
-    width: 90%;
-    height: auto;
-  }
-  footer .conteiner-footer {
-    display: unset;
-  }
-  .titulo-final-footer {
-    padding: 0 5%;
-    font-size: 1rem;
-  }
-  .jugadores-destacados .imagen-jugadores {
-    margin-bottom: 5px;
-    width: 350px;
-    height: 350px;
-  }
-  .galeria-jugadores {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-  }
-  .DT-destacados .imagen-DT {
-    width: 350px;
-    height: 350px;
-  }
-  .galeria-DT {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-  }
-  div.imagenesmundiales h1 {
-    font-size: 25px;
-  }
-  .global .tituloini h1 {
-    font-size: 25px;
-  }
-  .contenido-videos {
-    margin-top: 45px;
-  }
-  .contenido-videos h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 5px;
-    margin-top: 10px;
-  }
-  .contenido-videos a {
-    font-size: 15px;
-  }
-  .contenido-videos iframe {
-    width: 75%;
-    height: auto;
-  }
 }
+.contenedor-sobre-mundiales .contenido-textos p {
+  width: 90%;
+  font-size: 1rem;
+}
+
+.galeria-organismos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.organismos .imagen-organismos {
+  width: 90%;
+  height: auto;
+}
+
+.contenedorsobremundiales .contenido-textos iframe {
+  width: 90%;
+  height: auto;
+}
+
+footer .conteiner-footer {
+  display: unset;
+}
+
+.titulo-final-footer {
+  padding: 0 5%;
+  font-size: 1rem;
+}
+
+.jugadores-destacados .imagen-jugadores {
+  margin-bottom: 5px;
+  width: 350px;
+  height: 350px;
+}
+
+.galeria-jugadores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.DT-destacados .imagen-DT {
+  width: 350px;
+  height: 350px;
+}
+
+.galeria-DT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+div.imagenesmundiales h1 {
+  font-size: 25px;
+}
+
+.global .tituloini h1 {
+  font-size: 25px;
+}
+
+.contenido-videos {
+  margin-top: 45px;
+}
+.contenido-videos h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5px;
+  margin-top: 10px;
+}
+.contenido-videos a {
+  font-size: 15px;
+}
+.contenido-videos iframe {
+  width: 75%;
+  height: auto;
+}
+
 @media (width <= 1024px) {
   body .logo-pagina {
     display: none !important;
