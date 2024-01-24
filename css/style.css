@@ -271,20 +271,6 @@ header {
   color: hsla(192, 85%, 51%, 0.788);
   margin: 25px;
 }
-.intro .textos-header h2 {
-  font-size: 40px;
-  color: hsla(0, 0%, 3%, 0.788);
-}
-.intro .textos-header h3 {
-  font-size: 30px;
-  color: rgb(157, 197, 238);
-  margin-top: 42px;
-}
-.intro .textos-header h4 {
-  font-size: 20px;
-  color: rgb(5, 5, 5);
-  margin-top: 42px;
-}
 
 footer {
   background: #030303;
@@ -346,7 +332,7 @@ footer .conteiner-footer .content-foo a {
   background-attachment: fixed;
   position: relative;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 65px;
+  font-size: 25px;
   margin-bottom: 5%;
 }
 .accordion-button.accordion-1970, .accordion-button.accordion-1986 {
@@ -361,81 +347,80 @@ footer .conteiner-footer .content-foo a {
 }
 
 .accordion-1930 button {
-  background-image: url(https://img.freepik.com/foto-gratis/bandera-uruguay_1401-254.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1704672000&semt=ais);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
   margin-bottom: 5%;
 }
 
 .accordion-1934 button {
-  background-image: url(https://img.freepik.com/vector-premium/bandera-italia-efecto-ondulado-proporcion-oficial_292608-2021.jpg);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
   margin-bottom: 5%;
 }
 
 .accordion-1938 button {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/001/176/893/non_2x/flag-of-france-background-vector.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
   margin-bottom: 5%;
 }
 
 .accordion-1950 button {
-  background-image: url(https://t2.uc.ltmcdn.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg);
-  font-size: 65px;
-  color: rgb(255, 254, 249);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
+  color: rgb(7, 7, 7);
   margin-bottom: 5%;
 }
 
 .accordion-1954 button {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bandera_de_Suiza.png/640px-Bandera_de_Suiza.png);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
   margin-bottom: 5%;
 }
 
 .accordion-1958 button {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/2560px-Flag_of_Sweden.svg.png);
-  font-size: 65px;
-  color: rgb(255, 254, 249);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
+  color: rgb(10, 10, 10);
   margin-bottom: 5%;
 }
 
 .accordion-1962 button {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/002/431/835/original/illustration-of-the-chile-flag-free-vector.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
   margin-bottom: 5%;
 }
 
 .accordion-1966 button {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/009/287/763/non_2x/england-national-flag-waving-realistic-illustration-vector.jpg);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  background-size: contain;
   margin-bottom: 5%;
 }
 
 .accordion-1970 button {
-  background-image: url(https://www.despensamexicana.es/large/Banderas-Mexicanas-i7.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   color: rgb(8, 8, 8);
   opacity: 0.9;
   margin-bottom: 5%;
 }
 
 .accordion-1974 button {
-  background-image: url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
-  font-size: 65px;
-  color: rgb(255, 254, 249);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  color: rgb(3, 3, 3);
   margin-bottom: 5%;
 }
 
 .accordion-1978 button {
-  background-image: url(https://img.freepik.com/vector-gratis/ilustracion-bandera-argentina_53876-27120.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
 .accordion-1982 button {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/008/070/285/non_2x/spain-flag-icon-in-official-color-and-proportion-correctly-free-vector.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
 .accordion-1986 button {
-  background-image: url(https://www.despensamexicana.es/large/Banderas-Mexicanas-i7.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
   color: rgb(8, 8, 8);
   opacity: 0.9;
@@ -443,59 +428,50 @@ footer .conteiner-footer .content-foo a {
 }
 
 .accordion-1990 button {
-  background-image: url(https://img.freepik.com/vector-premium/bandera-italia-efecto-ondulado-proporcion-oficial_292608-2021.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
 .accordion-1994 button {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
 .accordion-1998 button {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/001/176/893/non_2x/flag-of-france-background-vector.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
 .accordion-2002 button {
-  background-image: url(https://img.freepik.com/fotos-premium/banderas-corea-sur-japon-primer-plano-bandera-lino-bandera-hecha-lienzo-simbolos-nacionales-estado-japones-seul-coreano-ilustracion-3d_630687-2313.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
 .accordion-2006 button {
-  background-image: url(https://media.istockphoto.com/id/475988677/es/foto/bandera-alemania.jpg?s=612x612&w=0&k=20&c=QhnSh5z96fGvYMMhl0-xWod4PrdS59eSsQN6vE6FegA=);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
 .accordion-2010 button {
-  background-image: url(https://wp.growproexperience.com/wp-content/uploads/2022/06/Todo-sobre-la-bandera-de-Suda%CC%81frica-Significado-e-historia-.jpg);
-  font-size: 65px;
-  color: rgb(143, 141, 141);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  color: rgb(7, 7, 7);
   margin-bottom: 5%;
 }
 
 .accordion-2014 button {
-  background-image: url(https://t2.uc.ltmcdn.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg);
-  font-size: 65px;
-  color: rgb(255, 254, 249);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  color: rgb(7, 7, 7);
   margin-bottom: 5%;
 }
 
 .accordion-2018 button {
-  background-image: url(https://media.istockphoto.com/id/1298626865/es/v%C3%ADdeo/bandera-de-sat%C3%A9n-de-rusia-ondeando-la-textura-de-la-tela-real-de-la-bandera-de-rusia.jpg?s=640x640&k=20&c=Z1WXAAWnHy_onhDemLRMnEZlr5YV1XFLKEi3dEqzd74=);
-  font-size: 65px;
-  color: rgb(255, 254, 249);
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
+  color: rgb(12, 12, 12);
   margin-bottom: 5%;
 }
 
 .accordion-2022 button {
-  background-image: url(https://cdn2.dineroenimagen.com/media/dinero/images/2022/11/bandera-qatar-costumbre.jpg);
-  font-size: 65px;
+  background-image: url(https://img.freepik.com/vector-premium/fondo-blanco-lujo-efecto-lineas-doradas_181182-188.jpg);
   margin-bottom: 5%;
 }
 
@@ -688,9 +664,6 @@ div.pie {
   .offcanvas-body a {
     color: #030303;
     text-decoration: none;
-  }
-  #a {
-    font-size: 1rem;
   }
   body .logo-pagina {
     display: none !important;
