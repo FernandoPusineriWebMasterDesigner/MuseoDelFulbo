@@ -706,13 +706,6 @@ div.pie {
     padding: 0 5%;
     font-size: 1rem;
   }
-  .contenido-mundiales {
-    display: flex;
-    flex-direction: column;
-  }
-  .contenido-mundiales button {
-    font-size: 2rem;
-  }
   .jugadores-destacados .imagen-jugadores {
     margin-bottom: 5px;
     width: 350px;
