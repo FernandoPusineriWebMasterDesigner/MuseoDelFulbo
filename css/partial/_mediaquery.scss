@@ -1,5 +1,17 @@
 @media (width<=660px) {
     
+    .intro>header {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .logo-pagina {
+
+            margin-top: 120px;
+        }
+    }
 
     .boton {
         display: block !important;
@@ -19,11 +31,7 @@
         }
     }
 
-    body {
-        .logo-pagina {
-            display: none !important;
-        }
-    }
+    
 
     nav {
         display: none !important;
@@ -143,11 +151,7 @@
 }
 
 @media (width<=1024px) {
-    body {
-        .logo-pagina {
-            display: none !important;
-        }
-    }
+    
 
     nav {
         display: none !important;

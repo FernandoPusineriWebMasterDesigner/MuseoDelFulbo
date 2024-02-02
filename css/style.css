@@ -650,6 +650,15 @@ div.pie {
 }
 
 @media (width <= 660px) {
+  .intro > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro > header .logo-pagina {
+    margin-top: 120px;
+  }
   .boton {
     display: block !important;
     margin-top: 30px;
@@ -664,9 +673,6 @@ div.pie {
   .offcanvas-body a {
     color: #030303;
     text-decoration: none;
-  }
-  body .logo-pagina {
-    display: none !important;
   }
   nav {
     display: none !important;
@@ -755,9 +761,6 @@ div.pie {
   }
 }
 @media (width <= 1024px) {
-  body .logo-pagina {
-    display: none !important;
-  }
   nav {
     display: none !important;
   }
