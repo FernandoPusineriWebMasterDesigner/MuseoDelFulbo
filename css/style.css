@@ -326,6 +326,14 @@ footer .conteiner-footer .content-foo a {
   margin: 0 10%;
 }
 
+.accordion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .accordion-button {
   width: 100%;
   background-size: cover;
