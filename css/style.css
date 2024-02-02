@@ -769,6 +769,15 @@ div.pie {
   }
 }
 @media (width <= 1024px) {
+  .intro > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro > header .logo-pagina {
+    margin-top: 120px;
+  }
   nav {
     display: none !important;
   }

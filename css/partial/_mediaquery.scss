@@ -151,6 +151,19 @@
 }
 
 @media (width<=1024px) {
+
+    .intro>header {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .logo-pagina {
+
+            margin-top: 120px;
+        }
+    }
     
 
     nav {
